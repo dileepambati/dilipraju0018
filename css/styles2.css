@@ -167,7 +167,7 @@ margin-top: 50px;
 
   margin-top: 10px;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -176,7 +176,7 @@ margin-top: 50px;
 
 .hero-content h4 {
   position: absolute;
-  top: 54%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
