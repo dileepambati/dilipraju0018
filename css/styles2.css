@@ -7,13 +7,14 @@ body{
 
 h3{
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-    color: #293462;
+
     margin-top: 0;
 }
 
 .mountain{
-  max-width: 99.99%;
-  max-height: 99.99%;
+   width: 100%;
+   height: auto;
+
 }
 
 .top-birds{
@@ -40,18 +41,17 @@ h1{
   font-size: 60px;
 }
 
-.top-birds{
-  position: absolute;
-  margin-left: 250px;
 
-}
 .profile_pic{
-  border-radius: 50%;
+  border-radius: 75%;
   margin: 0;
 }
 .top-container{
   background-color: #E4F9F5;
-  padding-top: 100px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+
 
 
 
@@ -92,7 +92,8 @@ h2{
 
 .middle-container{
   margin: auto;
-  width: 50%;
+  width: 80%;
+
 
 
 }
@@ -112,13 +113,14 @@ margin-top: 50px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
+  font-weight: bold;
   background: #002842;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #41d4fc;
+  background: #607ed7;
   text-decoration: none;
 }
 
@@ -133,4 +135,50 @@ margin-top: 50px;
   background: #dadeda;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+
+.Buttons2:hover {
+  background: #001d75;
+  transform: scale(1.1);
+  color: #ffffff
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+}
+
+.hero-content img.mountain {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-content h1 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+.hero-content h3 {
+
+  margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.hero-content h4 {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
 }
